@@ -173,33 +173,6 @@ export default function HomePage() {
             <p className="text-sm text-gray-300">Units Produced</p>
           </div>
         </div>
-
-        {/* Navigation */}
-        <div className="text-center space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-          <a
-            href="/"
-            className="block sm:inline-block bg-white/10 border border-white/20 hover:bg-white/20 text-white px-6 sm:px-8 py-3 rounded-full font-semibold transition-all w-full sm:w-auto"
-          >
-            ← Back to Main Site
-          </a>
-          <button className="block sm:inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-full font-semibold transition-colors w-full sm:w-auto">
-            🖨️ Print Specifications
-          </button>
-        </div>
-
-        {/* Demo Note */}
-        <div className="mt-12 sm:mt-16 text-center">
-          <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl p-4 sm:p-6 border border-green-400/30 max-w-2xl mx-auto">
-            <h3 className="text-lg sm:text-xl font-bold mb-2 text-green-400">
-              🎯 Demo Success!
-            </h3>
-            <p className="text-sm sm:text-base text-gray-300">
-              You successfully navigated from the HTML main site to this Next.js
-              specifications page. This demonstrates the seamless hybrid
-              architecture!
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
